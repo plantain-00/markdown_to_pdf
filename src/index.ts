@@ -3,6 +3,7 @@ import * as puppeteer from "puppeteer";
 import * as MarkdownIt from "markdown-it";
 import * as hljs from "highlight.js";
 import * as fs from "fs";
+import * as pangu from "pangu";
 import * as packageJson from "../package.json";
 
 let suppressError = false;
@@ -40,6 +41,8 @@ async function executeCommandLine() {
         throw new Error("Need a pdf path(-o path).");
     }
 
+    const htmlPath: string = argv.html;
+
     const cssPath: string = argv.css;
     const cssContent = cssPath ? fs.readFileSync(cssPath).toString() : "";
 
@@ -64,7 +67,16 @@ async function executeCommandLine() {
         },
     });
 
-    const fileContent = fs.readFileSync(files[0]).toString();
+    let fileContent = fs.readFileSync(files[0]).toString();
+
+    const spacing: boolean = argv.spacing;
+    if (spacing) {
+        const newFileContent = pangu.spacing(fileContent);
+        if (newFileContent !== fileContent) {
+            fs.writeFileSync(files[0], newFileContent);
+            fileContent = newFileContent;
+        }
+    }
 
     const htmlContent = md.render(fileContent);
     const styledHtmlContent = `<!DOCTYPE html>
@@ -79,6 +91,10 @@ ${cssContent}
 ${htmlContent}
 </body>
 `;
+
+    if (htmlPath) {
+        fs.writeFileSync(htmlPath, styledHtmlContent);
+    }
 
     const browser = await puppeteer.launch();
     const page = await browser.newPage();

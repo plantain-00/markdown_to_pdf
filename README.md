@@ -15,3 +15,8 @@ A CLI tool to convert a markdown to a pdf file.
 #### usage
 
 run `markdown_to_pdf test.md --css style.css -o test.pdf`
+
+#### options
+
++ `--html test.html` to generate a html for css debug usage
++ `--spacing` to add space between letter and Chinese character

@@ -13,3 +13,7 @@ declare module "puppeteer" {
         pdf(options: { path: string }): Promise<void>;
     }
 }
+
+declare module "pangu" {
+    export function spacing(words: string): string;
+}
