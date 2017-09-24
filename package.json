@@ -26,11 +26,11 @@
     "@types/jasmine": "2.6.0",
     "@types/markdown-it": "0.0.4",
     "@types/minimist": "1.2.0",
-    "@types/node": "8.0.28",
-    "clean-release": "1.3.4",
+    "@types/node": "8.0.30",
+    "clean-release": "1.3.5",
     "clean-scripts": "1.2.6",
     "jasmine": "2.8.0",
-    "no-unused-export": "1.2.6",
+    "no-unused-export": "1.2.7",
     "rimraf": "2.6.2",
     "standard": "10.0.3",
     "tslint": "5.7.0",
@@ -41,7 +41,7 @@
     "markdown-it": "8.4.0",
     "minimist": "1.2.0",
     "pangu": "3.3.0",
-    "puppeteer": "0.10.2"
+    "puppeteer": "0.11.0"
   },
   "bin": {
     "markdown_to_pdf": "bin/markdown_to_pdf"
