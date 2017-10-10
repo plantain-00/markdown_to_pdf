@@ -4,7 +4,6 @@
   "description": "A CLI tool to convert a markdown to a pdf file.",
   "main": "index.js",
   "scripts": {
-    "demoTest": "clean-scripts test[2]",
     "build": "clean-scripts build",
     "lint": "clean-scripts lint",
     "test": "clean-scripts test",
