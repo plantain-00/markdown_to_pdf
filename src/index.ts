@@ -8,16 +8,8 @@ import * as packageJson from "../package.json";
 
 let suppressError = false;
 
-function printInConsole(message: any) {
-    if (message instanceof Error) {
-        message = message.message;
-    }
-    // tslint:disable-next-line:no-console
-    console.log(message);
-}
-
 function showToolVersion() {
-    printInConsole(`Version: ${packageJson.version}`);
+    console.log(`Version: ${packageJson.version}`);
 }
 
 async function executeCommandLine() {
@@ -105,9 +97,13 @@ ${htmlContent}
 }
 
 executeCommandLine().then(() => {
-    printInConsole("markdown_to_pdf success.");
+    console.log("markdown_to_pdf success.");
 }, error => {
-    printInConsole(error);
+    if (error instanceof Error) {
+        console.log(error.message);
+    } else {
+        console.log(error);
+    }
     if (!suppressError) {
         process.exit(1);
     }
