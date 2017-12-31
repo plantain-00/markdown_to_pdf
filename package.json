@@ -20,10 +20,10 @@
   },
   "homepage": "https://github.com/plantain-00/markdown_to_pdf#readme",
   "devDependencies": {
-    "@commitlint/cli": "5.2.6",
+    "@commitlint/cli": "5.2.8",
     "@commitlint/config-angular": "5.1.1",
     "@types/highlight.js": "9.12.2",
-    "@types/jasmine": "2.8.2",
+    "@types/jasmine": "2.8.3",
     "@types/markdown-it": "0.0.4",
     "@types/minimist": "1.2.0",
     "@types/node": "8.5.2",
