@@ -1,6 +1,6 @@
 {
   "name": "markdown_to_pdf",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A CLI tool to convert a markdown to a pdf file.",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,7 @@
     "@types/highlight.js": "9.12.2",
     "@types/jasmine": "2.8.3",
     "@types/markdown-it": "0.0.4",
+    "@types/markdownlint": "0.6.0",
     "@types/minimist": "1.2.0",
     "@types/node": "8.5.2",
     "@types/puppeteer": "0.13.9",
@@ -40,6 +41,7 @@
   "dependencies": {
     "highlight.js": "9.12.0",
     "markdown-it": "8.4.0",
+    "markdownlint": "0.6.4",
     "minimist": "1.2.0",
     "pangu": "3.3.0",
     "puppeteer": "0.13.0"

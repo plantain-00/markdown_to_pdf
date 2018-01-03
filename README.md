@@ -21,3 +21,4 @@ run `markdown_to_pdf test.md --css style.css -o test.pdf`
 
 + `--html test.html` to generate a html for css debug usage
 + `--spacing` to add space between letter and Chinese character
++ `--lint` to lint markdown file

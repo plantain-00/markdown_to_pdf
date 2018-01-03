@@ -4,6 +4,7 @@ import * as MarkdownIt from "markdown-it";
 import * as hljs from "highlight.js";
 import * as fs from "fs";
 import * as pangu from "pangu";
+import * as markdownlint from "markdownlint";
 import * as packageJson from "../package.json";
 
 let suppressError = false;
@@ -27,6 +28,7 @@ async function executeCommandLine() {
     if (files.length !== 1) {
         throw new Error("Need 1 file.");
     }
+    const file = files[0];
 
     const pdfPath: string = argv.o;
     if (!pdfPath) {
@@ -59,14 +61,29 @@ async function executeCommandLine() {
         },
     });
 
-    let fileContent = fs.readFileSync(files[0]).toString();
+    let fileContent = fs.readFileSync(file).toString();
 
     const spacing: boolean = argv.spacing;
     if (spacing) {
         const newFileContent = pangu.spacing(fileContent);
         if (newFileContent !== fileContent) {
-            fs.writeFileSync(files[0], newFileContent);
+            fs.writeFileSync(file, newFileContent);
             fileContent = newFileContent;
+        }
+    }
+
+    const lint: boolean = argv.lint;
+    if (lint) {
+        const lintResult = markdownlint.sync({
+            files: [file],
+            config: {
+                "default": true,
+                "line-length": false,
+            },
+        }).toString();
+        if (lintResult) {
+            console.log(lintResult);
+            throw new Error("Lint error.");
         }
     }
 

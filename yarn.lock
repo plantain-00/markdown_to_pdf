@@ -132,6 +132,10 @@
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/@types/markdown-it/-/markdown-it-0.0.4.tgz#c5f67365916044b342dae8d702724788ba0b5b74"
 
+"@types/markdownlint@0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@types/markdownlint/-/markdownlint-0.6.0.tgz#2a16aa3bc04b453e0331cb302b9a4d7b5b9313c2"
+
 "@types/minimist@1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.0.tgz#69a23a3ad29caf0097f06eda59b361ee2f0639f6"
@@ -1337,7 +1341,7 @@ markdownlint-cli@0.5.0:
     markdownlint "~0.6.1"
     rc "~1.1.6"
 
-markdownlint@~0.6.1:
+markdownlint@0.6.4, markdownlint@~0.6.1:
   version "0.6.4"
   resolved "https://registry.yarnpkg.com/markdownlint/-/markdownlint-0.6.4.tgz#7fa77e0d8c1b1c3ed7978761ce664bd23e7328ef"
   dependencies:
