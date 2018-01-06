@@ -28,6 +28,7 @@
     "@types/markdownlint": "0.6.0",
     "@types/minimist": "1.2.0",
     "@types/node": "8.5.2",
+    "@types/pangu": "3.3.0",
     "@types/puppeteer": "0.13.9",
     "clean-scripts": "1.7.0",
     "jasmine": "2.8.0",
