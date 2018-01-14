@@ -11,7 +11,7 @@ A CLI tool to convert a markdown to a pdf file.
 
 ## install
 
-`npm i markdown_to_pdf -g`
+`yarn global add markdown_to_pdf`
 
 ## usage
 
