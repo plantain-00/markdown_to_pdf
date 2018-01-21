@@ -46,14 +46,12 @@ async function executeCommandLine () {
         try {
           return `<pre><code class="hljs ${lang}">${hljs.highlight(lang, str).value}</code></pre>`
         } catch (error) {
-                    // tslint:disable-next-line:no-console
           console.log(error)
         }
       } else {
         try {
           return `<pre><code class="hljs">${hljs.highlightAuto(str).value}</code></pre>`
         } catch (error) {
-                    // tslint:disable-next-line:no-console
           console.log(error)
         }
       }
