@@ -1,9 +1,9 @@
-import * as minimist from 'minimist'
-import * as puppeteer from 'puppeteer'
-import * as MarkdownIt from 'markdown-it'
+import minimist from 'minimist'
+import puppeteer from 'puppeteer'
+import MarkdownIt from 'markdown-it'
 import * as hljs from 'highlight.js'
 import * as fs from 'fs'
-import * as pangu from 'pangu'
+import pangu from 'pangu'
 import * as markdownlint from 'markdownlint'
 import * as packageJson from '../package.json'
 
