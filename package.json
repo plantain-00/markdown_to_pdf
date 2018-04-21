@@ -27,10 +27,10 @@
     "@types/markdown-it": "0.0.4",
     "@types/markdownlint": "0.6.0",
     "@types/minimist": "1.2.0",
-    "@types/node": "9.6.5",
+    "@types/node": "9.6.6",
     "@types/pangu": "3.3.0",
     "@types/puppeteer": "1.2.1",
-    "clean-scripts": "1.7.0",
+    "clean-scripts": "1.8.0",
     "jasmine": "3.1.0",
     "markdownlint-cli": "0.8.1",
     "no-unused-export": "1.5.0",
@@ -38,7 +38,7 @@
     "standard": "11.0.1",
     "tslint": "5.9.1",
     "tslint-config-standard": "7.0.0",
-    "typescript": "2.8.1"
+    "typescript": "2.8.3"
   },
   "dependencies": {
     "highlight.js": "9.12.0",
