@@ -9,6 +9,6 @@ module.exports = {
   ],
   postScript: [
     'cd "[dir]" && yarn --production',
-    '[dir]/bin/markdown_to_pdf demo/test.md --css demo/style.css -o demo/test.pdf --spacing --html demo/test.html --lint'
+    'node [dir]/dist/index.js demo/test.md --css demo/style.css -o demo/test.pdf --spacing --html demo/test.html --lint'
   ]
 }
