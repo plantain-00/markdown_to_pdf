@@ -27,12 +27,12 @@
     "@types/markdown-it": "0.0.5",
     "@types/markdownlint": "0.6.0",
     "@types/minimist": "1.2.0",
-    "@types/node": "10.5.5",
+    "@types/node": "10.5.7",
     "@types/pangu": "3.3.0",
     "@types/puppeteer": "1.6.0",
     "clean-release": "2.6.0",
     "clean-scripts": "1.9.2",
-    "jasmine": "3.1.0",
+    "jasmine": "3.2.0",
     "markdownlint-cli": "0.12.0",
     "no-unused-export": "1.6.0",
     "rimraf": "2.6.2",
@@ -48,7 +48,7 @@
     "markdownlint": "0.11.0",
     "minimist": "1.2.0",
     "pangu": "3.3.0",
-    "puppeteer": "1.6.2",
+    "puppeteer": "1.7.0",
     "tslib": "1.9.3"
   },
   "bin": {
