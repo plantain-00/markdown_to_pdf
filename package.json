@@ -27,7 +27,7 @@
     "@types/markdown-it": "0.0.5",
     "@types/markdownlint": "0.6.0",
     "@types/minimist": "1.2.0",
-    "@types/node": "10.7.1",
+    "@types/node": "10.9.1",
     "@types/pangu": "3.3.0",
     "@types/puppeteer": "1.6.0",
     "clean-release": "2.6.0",
