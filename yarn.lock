@@ -168,10 +168,10 @@
   resolved "https://registry.yarnpkg.com/@types/highlight.js/-/highlight.js-9.12.3.tgz#b672cfaac25cbbc634a0fd92c515f66faa18dbca"
   integrity sha512-pGF/zvYOACZ/gLGWdQH8zSwteQS1epp68yRcVLJMgUck/MjEn/FBYmPub9pXT8C1e4a8YZfHo1CKyV8q1vKUnQ==
 
-"@types/jasmine@3.3.4":
-  version "3.3.4"
-  resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-3.3.4.tgz#492cc70364f6dee047887b4fa2135bedd41fb143"
-  integrity sha512-543S+ZCJfN4jKWzRkptbJqTY2vc4h7+lPVqU2hXb1XFofDcUxNANAimdZPYaH6/yhezVAsNeujoZjAFU06bfmA==
+"@types/jasmine@3.3.5":
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-3.3.5.tgz#3738ffbf34dffae9ecaac4503d7d969744f0e1d7"
+  integrity sha512-LJtc52O1PNUffMvH6Q3fS0BOhQWYlkh3SVu/Jc4GoPgJkUytk5Y6YPbw+6lZK2mWWvG62BtVyOFw0ih7r8STsw==
 
 "@types/linkify-it@*":
   version "2.0.4"
@@ -740,9 +740,9 @@ debug@^3.1.0:
     ms "^2.1.1"
 
 debug@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.0.tgz#373687bffa678b38b1cd91f861b63850035ddc87"
-  integrity sha512-heNPJUJIqC+xB6ayLAMHaIrmN9HKa7aQO8MGqKpvCA+uJYVcvR6l5kgdrhRuwPFHU7P5/A1w0BjByPHwpfTDKg==
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
+  integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
   dependencies:
     ms "^2.1.1"
 
