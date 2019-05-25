@@ -49,10 +49,10 @@
   "dependencies": {
     "highlight.js": "9.15.6",
     "markdown-it": "8.4.2",
-    "markdownlint": "0.14.1",
+    "markdownlint": "0.14.2",
     "minimist": "1.2.0",
     "pangu": "4.0.7",
-    "puppeteer": "1.16.0",
+    "puppeteer": "1.17.0",
     "tslib": "1.9.3"
   },
   "bin": {
