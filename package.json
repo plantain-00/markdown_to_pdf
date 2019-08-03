@@ -30,7 +30,7 @@
     "@types/markdown-it": "0.0.8",
     "@types/markdownlint": "0.13.0",
     "@types/minimist": "1.2.0",
-    "@types/node": "12.6.8",
+    "@types/node": "12.6.9",
     "@types/pangu": "3.3.0",
     "@types/puppeteer": "1.19.0",
     "clean-release": "2.7.0",
@@ -43,11 +43,11 @@
     "tslint": "5.18.0",
     "tslint-config-standard": "8.0.1",
     "tslint-sonarts": "1.9.0",
-    "type-coverage": "2.2.0-alpha.2",
+    "type-coverage": "2.2.0",
     "typescript": "3.5.3"
   },
   "dependencies": {
-    "highlight.js": "9.15.8",
+    "highlight.js": "9.15.9",
     "markdown-it": "9.0.1",
     "markdownlint": "0.15.0",
     "minimist": "1.2.0",
