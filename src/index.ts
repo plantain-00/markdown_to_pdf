@@ -13,7 +13,6 @@ function showToolVersion() {
   console.log(`Version: ${packageJson.version}`)
 }
 
-// tslint:disable-next-line:cognitive-complexity
 async function executeCommandLine() {
   const argv = minimist(process.argv.slice(2), { '--': true })
 
@@ -109,7 +108,7 @@ ${htmlContent}
   await page.setContent(styledHtmlContent)
   await page.pdf({ path: pdfPath })
 
-  browser.close()
+  await browser.close()
 }
 
 executeCommandLine().then(() => {
