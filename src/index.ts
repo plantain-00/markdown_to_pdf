@@ -1,10 +1,10 @@
 import minimist from 'minimist'
 import puppeteer from 'puppeteer'
 import MarkdownIt from 'markdown-it'
-import * as hljs from 'highlight.js'
+import hljs from 'highlight.js'
 import * as fs from 'fs'
 import pangu from 'pangu'
-import * as markdownlint from 'markdownlint'
+import markdownlint from 'markdownlint'
 import * as packageJson from '../package.json'
 
 let suppressError = false
@@ -40,7 +40,7 @@ async function executeCommandLine() {
   const cssPath: string = argv.css
   const cssContent = cssPath ? fs.readFileSync(cssPath).toString() : ''
 
-  const md = MarkdownIt({
+  const md: MarkdownIt = MarkdownIt({
     highlight: (str: string, lang: string) => {
       if (lang && hljs.getLanguage(lang)) {
         try {
