@@ -26,7 +26,6 @@
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",
     "@types/highlight.js": "9.12.4",
-    "@types/jasmine": "3.5.10",
     "@types/markdown-it": "10.0.1",
     "@types/markdownlint": "0.13.0",
     "@types/minimist": "1.2.0",
@@ -40,21 +39,21 @@
     "eslint": "7.1.0",
     "eslint-config-prettier": "6.11.0",
     "eslint-plugin-plantain": "1.0.0",
-    "jasmine": "3.5.0",
     "markdownlint-cli": "0.23.1",
     "no-unused-export": "1.10.3",
     "rimraf": "3.0.2",
+    "ts-node": "8.10.2",
     "type-coverage": "2.7.1",
     "typescript": "3.9.5"
   },
   "dependencies": {
-    "highlight.js": "10.0.3",
-    "markdown-it": "11.0.0",
-    "markdownlint": "0.20.3",
-    "minimist": "1.2.5",
-    "pangu": "4.0.7",
-    "puppeteer": "3.3.0",
-    "tslib": "2.0.0"
+    "highlight.js": "10",
+    "markdown-it": "11",
+    "markdownlint": "0.20",
+    "minimist": "1",
+    "pangu": "4",
+    "puppeteer": "3",
+    "tslib": "2"
   },
   "bin": {
     "markdown_to_pdf": "bin/markdown_to_pdf"
