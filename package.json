@@ -19,7 +19,7 @@
     "url": "https://github.com/plantain-00/markdown_to_pdf/issues"
   },
   "typeCoverage": {
-    "atLeast": 89
+    "atLeast": 95.74
   },
   "homepage": "https://github.com/plantain-00/markdown_to_pdf#readme",
   "devDependencies": {
@@ -43,7 +43,7 @@
     "no-unused-export": "1.10.3",
     "rimraf": "3.0.2",
     "ts-node": "8.10.2",
-    "type-coverage": "2.7.2",
+    "type-coverage": "2.8.2",
     "typescript": "3.9.5"
   },
   "dependencies": {

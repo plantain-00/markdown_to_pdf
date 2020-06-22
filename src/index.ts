@@ -13,12 +13,44 @@ function showToolVersion() {
   console.log(`Version: ${packageJson.version}`)
 }
 
+function showHelp() {
+  console.log(`Version ${packageJson.version}
+Syntax:   markdown_to_pdf [options] [file...]
+Examples: markdown_to_pdf test.md --css style.css -o test.pdf
+Options:
+ -h, --help                                         Print this message.
+ -v, --version                                      Print the version
+ --html                                             Generate a html for css debug usage
+ --css                                              Css file
+ --spacing                                          Add space between letter and Chinese character
+ --lint                                             Lint markdown file
+ -o                                                 Target
+`)
+}
+
 async function executeCommandLine() {
-  const argv = minimist(process.argv.slice(2), { '--': true })
+  const argv = minimist(process.argv.slice(2), { '--': true }) as unknown as {
+    v?: unknown
+    version?: unknown
+    h?: unknown
+    help?: unknown
+    suppressError: boolean
+    html: string
+    css: string
+    _: string[]
+    o: string
+    spacing: boolean
+    lint: boolean
+  }
 
   const showVersion = argv.v || argv.version
   if (showVersion) {
     showToolVersion()
+    return
+  }
+
+  if (argv.h || argv.help) {
+    showHelp()
     return
   }
 
