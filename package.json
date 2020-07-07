@@ -52,7 +52,7 @@
     "minimist": "1",
     "pangu": "4",
     "puppeteer": "4",
-    "tslib": "2"
+    "tslib": "1 || 2"
   },
   "bin": {
     "markdown_to_pdf": "bin/markdown_to_pdf"
