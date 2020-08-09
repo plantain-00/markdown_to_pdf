@@ -57,5 +57,8 @@
   },
   "bin": {
     "markdown_to_pdf": "bin/markdown_to_pdf"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
