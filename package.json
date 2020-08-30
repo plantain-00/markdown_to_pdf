@@ -20,7 +20,7 @@
     "url": "https://github.com/plantain-00/markdown_to_pdf/issues"
   },
   "typeCoverage": {
-    "atLeast": 95.74
+    "atLeast": 97.87
   },
   "homepage": "https://github.com/plantain-00/markdown_to_pdf#readme",
   "devDependencies": {
