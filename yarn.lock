@@ -59,13 +59,6 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@types/highlight.js@10.1.0":
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/@types/highlight.js/-/highlight.js-10.1.0.tgz#89bb0c202997d7a90a07bd2ec1f7d00c56bb90b4"
-  integrity sha512-77hF2dGBsOgnvZll1vymYiNUtqJ8cJfXPD6GG/2M0aLRc29PkvB7Au6sIDjIEFcSICBhCh2+Pyq6WSRS7LUm6A==
-  dependencies:
-    highlight.js "*"
-
 "@types/highlight.js@^9.7.0":
   version "9.12.4"
   resolved "https://registry.yarnpkg.com/@types/highlight.js/-/highlight.js-9.12.4.tgz#8c3496bd1b50cc04aeefd691140aa571d4dbfa34"
@@ -89,13 +82,6 @@
     "@types/highlight.js" "^9.7.0"
     "@types/linkify-it" "*"
     "@types/mdurl" "*"
-
-"@types/markdownlint@0.18.0":
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/@types/markdownlint/-/markdownlint-0.18.0.tgz#ea107586d7389b66b50d276715af302913c53c3d"
-  integrity sha512-mYHE7+47zvW/yaTDfU5BVirBtL0plS0bmHgqBybt8X30Tv9T0ZUfIrrMnMLnuZDJjL3esywd8qd4wnfUtmVPwA==
-  dependencies:
-    markdownlint "*"
 
 "@types/mdurl@*":
   version "1.0.2"
@@ -903,7 +889,7 @@ has-flag@^4.0.0:
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
   integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
 
-highlight.js@*, highlight.js@10:
+highlight.js@10:
   version "10.6.0"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.6.0.tgz#0073aa71d566906965ba6e1b7be7b2682f5e18b6"
   integrity sha512-8mlRcn5vk/r4+QcqerapwBYTe+iPL5ih6xrNylxrnBdHQiijDETfXX7VIxC3UiCRiINBJfANBAsPzAvRQj8RpQ==
@@ -1147,7 +1133,7 @@ markdownlint-rule-helpers@~0.14.0:
   resolved "https://registry.yarnpkg.com/markdownlint-rule-helpers/-/markdownlint-rule-helpers-0.14.0.tgz#4d0e1ae320e85559d8cbed1490934855791627bb"
   integrity sha512-vRTPqSU4JK8vVXmjICHSBhwXUvbfh/VJo+j7hvxqe15tLJyomv3FLgFdFgb8kpj0Fe8SsJa/TZUAXv7/sN+N7A==
 
-markdownlint@*, markdownlint@0.23, markdownlint@~0.23.1:
+markdownlint@0.23, markdownlint@~0.23.1:
   version "0.23.1"
   resolved "https://registry.yarnpkg.com/markdownlint/-/markdownlint-0.23.1.tgz#98292b5d340d01e9c113f3d7fb3b2ccf89628dc2"
   integrity sha512-iOEwhDfNmq2IJlaA8mzEkHYUi/Hwoa6Ss+HO5jkwUR6wQ4quFr0WzSx+Z9rsWZKUaPbyirIdL1zGmJRkWawr4Q==
