@@ -60,7 +60,7 @@ async function executeCommandLine() {
   if (files.length !== 1) {
     throw new Error('Need 1 file.')
   }
-  const file = files[0]
+  const file = files[0]!
 
   const pdfPath: string = argv.o
   if (!pdfPath) {
@@ -145,7 +145,7 @@ ${htmlContent}
 
 executeCommandLine().then(() => {
   console.log('markdown_to_pdf success.')
-}, error => {
+}, (error: unknown) => {
   if (error instanceof Error) {
     console.log(error.message)
   } else {
